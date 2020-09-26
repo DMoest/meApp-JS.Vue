@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # meapp-vue
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# meApp-JS.Vue
+>>>>>>> a324f33595b5af2f102607136623cd63745696b3

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: auto;
+  width: 100%;
+}
+
+.site_content {
+  padding: map-get($padding, "standard") 10%;
+}

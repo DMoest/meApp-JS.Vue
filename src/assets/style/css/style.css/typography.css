@@ -1,0 +1,50 @@
+/* --- Variabels --- */
+html {
+  font-size: 100%;
+  line-height: 1.2; }
+
+body {
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-size: 1em;
+  font-weight: 1em;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "font-family: 'Sigmar One', cursive;"; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+h6 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "font-family: 'Open Sans', sans-serif;"; }
+
+.site_header-title {
+  text-align: center;
+  font-font: "font-family: 'Sigmar One', cursive;";
+  color: #fcfcfc; }

@@ -1,0 +1,20 @@
+.site_header {
+  width: 100%;
+  display: block;
+
+  &-title {
+    position: absolute;
+    top: 5rem;
+    z-index: 200;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  &-image {
+    width: 100%;
+    height: 15rem;
+    z-index: 100;
+    display: block;
+  }
+}

@@ -1,0 +1,163 @@
+/* --- Variabels --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: auto;
+  width: 100%;
+}
+
+.site_content {
+  padding: 1.333em 10% 10%;
+}
+
+/* --- Variabels --- */
+html {
+  font-size: 100%;
+  line-height: 1.333;
+}
+
+body {
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-size: 1em;
+  font-weight: 1em;
+  line-height: 1.333;
+}
+
+h1 {
+  font-size: 5.61rem;
+  font-weight: 600;
+  font-family: "font-family: 'Sigmar One', cursive;";
+  color: #515151;
+}
+
+h2 {
+  font-size: 4.209rem;
+  font-weight: 500;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  color: #515151;
+}
+
+h3 {
+  font-size: 3.157rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  color: #515151;
+}
+
+h4 {
+  font-size: 2.369rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  color: #515151;
+}
+
+h5 {
+  font-size: 1.777rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  color: #515151;
+}
+
+h6 {
+  font-size: 1.333rem;
+  font-weight: 400;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  color: #515151;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "font-family: 'Open Sans', sans-serif;";
+  padding-bottom: 1.333em;
+  color: #515151;
+}
+
+ol li {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #515151;
+  padding-bottom: 0.6665em;
+}
+
+.site_header-title {
+  text-align: center;
+  font-font: "font-family: 'Sigmar One', cursive;";
+  color: #fcfcfc;
+}
+
+/* --- Variabels --- */
+.navbar {
+  width: 100%;
+  padding: 1.333em 10% 1.333em 60%;
+  margin: 0;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  gap: 1.333em;
+  color: #515151;
+}
+
+.multinavigation {
+  width: 100%;
+  padding: 1.333em 10%;
+  margin: 0;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  gap: 1.333em;
+}
+
+.site_header {
+  width: 100%;
+  display: block;
+}
+.site_header-title {
+  position: absolute;
+  top: 5rem;
+  z-index: 200;
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+.site_header-image {
+  width: 100%;
+  height: 15rem;
+  z-index: 100;
+  display: block;
+}
+
+/* --- Variabels --- */
+/* --- Navbar --- */
+.navbar_button {
+  width: auto;
+  padding: 1.333em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+a.navbar-activeLink {
+  color: #3d868f;
+}
+
+/* --- Multinavigation --- */
+.multinavigation_button {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #515151;
+  cursor: pointer;
+}
+
+.activeReport {
+  color: #3d868f;
+}
+
+/*# sourceMappingURL=style.css.map */

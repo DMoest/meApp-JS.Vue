@@ -1,0 +1,32 @@
+@import "variables";
+
+/* --- Navbar --- */
+.navbar_button {
+  width: auto;
+  padding: map-get($padding, "button");
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2c3e50;
+  cursor: pointer;
+}
+
+a.navbar-activeLink {
+  color: map-get($colors, "link-active");
+}
+
+
+
+/* --- Multinavigation --- */
+.multinavigation_button {
+  width: auto;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: map-get($colors, "dark-grey");
+  cursor: pointer;
+
+}
+
+.activeReport {
+  color: map-get($colors, "link-active");
+}

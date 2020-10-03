@@ -1,0 +1,22 @@
+@import "variables";
+
+.navbar {
+  width: 100%;
+  padding: map-get($rythem, "vertical") 10% map-get($rythem, "vertical") 60%;
+  margin: 0;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  gap: map-get($rythem, "vertical");
+  color: map-get($colors, "dark-grey");
+}
+
+.multinavigation {
+  width: 100%;
+  padding: map-get($rythem, "vertical") 10%;
+  margin: 0;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  gap: map-get($rythem, "vertical");
+}

@@ -1,0 +1,52 @@
+/* --- Variabels --- */
+
+$colors: (
+  "white": #fcfcfc,
+  "black": #050505,
+  "grey": #808080,
+  "light-grey": #c8c8c8,
+  "dark-grey": #515151,
+  "link-active": #3d868f,
+);
+
+$fontFamily: (
+  "header": "font-family: 'Sigmar One', cursive;",
+  "paragraph": "font-family: 'Open Sans', sans-serif;",
+);
+
+$fontSize: (
+  "base": 1em,
+  "ratio": 1.2,
+  "h1": 5.61rem,
+  "h2": 4.209rem,
+  "h3": 3.157rem,
+  "h4": 2.369rem,
+  "h5": 1.777rem,
+  "h6": 1.333rem,
+  "p": 1rem,
+);
+
+$fontWeight: (
+  "base": 1em,
+  "p": 300,
+  "h1": 600,
+  "h2": 500,
+  "h3": 400,
+  "h4": 400,
+  "h5": 400,
+  "h6": 400,
+);
+
+$lineHeight: 1.333;
+
+$rythem: (
+  "vertical": $lineHeight * 1em,
+  "verticalHalf": ($lineHeight * 1em) / 2,
+  "headers": ($lineHeight * 2 * 1em),
+);
+
+$padding: (
+  "headerBottom": map-get($rythem, "vertical") * 2rem,
+  "button": map-get($rythem, "vertical"),
+  "standard": map-get($rythem, "vertical") 10%,
+);

@@ -1,5 +1,4 @@
 /* --- Variabels --- */
-
 $colors: (
   "white": #fcfcfc,
   "black": #050505,
@@ -10,8 +9,9 @@ $colors: (
 );
 
 $fontFamily: (
-  "header": "font-family: 'Sigmar One', cursive;",
-  "paragraph": "font-family: 'Open Sans', sans-serif;",
+  "header": "Impact",
+  "subHeader": "Palatino",
+  "paragraph": "Verdana",
 );
 
 $fontSize: (
@@ -40,9 +40,9 @@ $fontWeight: (
 $lineHeight: 1.333;
 
 $rythem: (
-  "vertical": $lineHeight * 1em,
-  "verticalHalf": ($lineHeight * 1em) / 2,
-  "headers": ($lineHeight * 2 * 1em),
+  "vertical": $lineHeight * 1rem,
+  "verticalHalf": ($lineHeight * 1rem) / 2,
+  "headers": (2 * $lineHeight * 1rem),
 );
 
 $padding: (

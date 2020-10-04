@@ -1,83 +1,93 @@
-@import 'variables';
+@import 'variables.scss';
 
-html {
-  font-size: 100%;
-  line-height: $lineHeight;
-}
+#app {
 
-body {
-  font-family: map-get($fontFamily, "paragraph");
-  font-size: map-get($fontSize, "base");
-  font-weight: map-get($fontWeight, "base");
-  line-height: $lineHeight;
-}
 
-h1 {
-  font-size: map-get($fontSize, "h1");
-  font-weight: map-get($fontWeight, "h1");
-  font-family: map-get($fontFamily, "header");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
+  html {
+    font-size: 100%;
+    line-height: $lineHeight;
+  }
 
-h2 {
-  font-size: map-get($fontSize, "h2");
-  font-weight: map-get($fontWeight, "h2");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
+  body {
+    font-family: map-get($fontFamily, "paragraph");
+    font-size: map-get($fontSize, "base");
+    font-weight: map-get($fontWeight, "base");
+    line-height: $lineHeight;
+  }
 
-h3 {
-  font-size: map-get($fontSize, "h3");
-  font-weight: map-get($fontWeight, "h3");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
+  h1 {
+    font-size: map-get($fontSize, "h1");
+    font-weight: map-get($fontWeight, "h1");
+    font-family: map-get($fontFamily, "header");
+    padding-bottom: map-get($rythem, "headers");
+    color: map-get($colors, "dark-grey");
+    /* lobster-regular - latin */
+  }
 
-h4 {
-  font-size: map-get($fontSize, "h4");
-  font-weight: map-get($fontWeight, "h4");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
+  h2 {
+    font-size: map-get($fontSize, "h2");
+    font-weight: map-get($fontWeight, "h2");
+    font-family: map-get($fontFamily, "header");
+    padding-bottom: map-get($rythem, "headers");
+    color: map-get($colors, "dark-grey");
+  }
 
-h5 {
-  font-size: map-get($fontSize, "h5");
-  font-weight: map-get($fontWeight, "h5");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
-h6 {
-  font-size: map-get($fontSize, "h6");
-  font-weight: map-get($fontWeight, "h6");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($padding, "headers");
-  color: map-get($colors, "dark-grey");
-}
+  h3 {
+    font-size: map-get($fontSize, "h3");
+    font-weight: map-get($fontWeight, "h3");
+    font-family: map-get($fontFamily, "subHeader");
+    padding-bottom: map-get($rythem, "vertical");
+    color: map-get($colors, "dark-grey");
+  }
 
-p {
-  font-size: map-get($fontSize, "p");
-  font-weight: map-get($fontWeight, "p");
-  font-family: map-get($fontFamily, "paragraph");
-  padding-bottom: map-get($rythem, "vertical");
-  color: map-get($colors, "dark-grey");
-}
+  h4 {
+    font-size: map-get($fontSize, "h4");
+    font-weight: map-get($fontWeight, "h4");
+    font-family: map-get($fontFamily, "subHeader");
+    padding-bottom: map-get($rythem, "vertical");
+    color: map-get($colors, "dark-grey");
+  }
 
-ol {
-  li {
+  h5 {
+    font-size: map-get($fontSize, "h5");
+    font-weight: map-get($fontWeight, "h5");
+    font-family: map-get($fontFamily, "subHeader");
+    padding-bottom: map-get($rythem, "vertical");
+    color: map-get($colors, "dark-grey");
+  }
+
+  h6 {
+    font-size: map-get($fontSize, "h6");
+    font-weight: map-get($fontWeight, "h6");
+    font-family: map-get($fontFamily, "subHeader");
+    padding-bottom: map-get($rythem, "vertical");
+    color: map-get($colors, "dark-grey");
+  }
+
+  p {
     font-size: map-get($fontSize, "p");
     font-weight: map-get($fontWeight, "p");
+    font-family: map-get($fontFamily, "paragraph");
+    padding-bottom: map-get($rythem, "vertical");
     color: map-get($colors, "dark-grey");
-    padding-bottom: map-get($rythem, "verticalHalf");
   }
-}
 
-.site_header-title {
-  text-align: center;
-  font-font: map-get($fontFamily, "header");
-  color: map-get($colors, "white");
+  ol {
+    padding-bottom: map-get($rythem, "vertical");
+
+    li {
+      font-size: map-get($fontSize, "p");
+      font-weight: map-get($fontWeight, "p");
+      color: map-get($colors, "dark-grey");
+      padding-bottom: map-get($rythem, "verticalHalf");
+    }
+  }
+
+  .site_header-title {
+    text-align: center;
+    font-family: map-get($fontFamily, "header");
+    font-weight: map-get($fontWeight, "h1");
+    font-size: map-get($fontSize, "h1");
+    color: map-get($colors, "white");
+  }
 }

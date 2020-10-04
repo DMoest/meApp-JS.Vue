@@ -5,10 +5,15 @@
 }
 
 html {
-  overflow: auto;
+  overflow-x: hidden;
   width: 100%;
 }
 
 .site_content {
   padding: map-get($padding, "standard") 10%;
+}
+
+.image_me {
+  width: 15rem;
+  float: right;
 }

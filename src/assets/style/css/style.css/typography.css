@@ -1,50 +1,75 @@
 /* --- Variabels --- */
-html {
+#app html {
   font-size: 100%;
-  line-height: 1.2; }
+  line-height: 1.333; }
 
-body {
-  font-family: "font-family: 'Open Sans', sans-serif;";
+#app body {
+  font-family: "Verdana";
   font-size: 1em;
   font-weight: 1em;
-  line-height: 1.2; }
+  line-height: 1.333; }
 
-h1 {
-  font-size: 3rem;
+#app h1 {
+  font-size: 5.61rem;
   font-weight: 600;
-  font-family: "font-family: 'Sigmar One', cursive;"; }
+  font-family: "Impact";
+  padding-bottom: 2.666rem;
+  color: #515151;
+  /* lobster-regular - latin */ }
 
-h2 {
-  font-size: 2rem;
+#app h2 {
+  font-size: 4.209rem;
   font-weight: 500;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Impact";
+  padding-bottom: 2.666rem;
+  color: #515151; }
 
-h3 {
-  font-size: 2rem;
+#app h3 {
+  font-size: 3.157rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
+  color: #515151; }
 
-h4 {
-  font-size: 2rem;
+#app h4 {
+  font-size: 2.369rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
+  color: #515151; }
 
-h5 {
-  font-size: 2rem;
+#app h5 {
+  font-size: 1.777rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
+  color: #515151; }
 
-h6 {
-  font-size: 2rem;
+#app h6 {
+  font-size: 1.333rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
+  color: #515151; }
 
-p {
+#app p {
   font-size: 1rem;
   font-weight: 300;
-  font-family: "font-family: 'Open Sans', sans-serif;"; }
+  font-family: "Verdana";
+  padding-bottom: 1.333rem;
+  color: #515151; }
 
-.site_header-title {
+#app ol {
+  padding-bottom: 1.333rem; }
+  #app ol li {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #515151;
+    padding-bottom: 0.6665rem; }
+
+#app .site_header-title {
   text-align: center;
-  font-font: "font-family: 'Sigmar One', cursive;";
+  font-family: "Impact";
+  font-weight: 600;
+  font-size: 5.61rem;
   color: #fcfcfc; }

@@ -6,110 +6,117 @@
 }
 
 html {
-  overflow: auto;
+  overflow-x: hidden;
   width: 100%;
 }
 
 .site_content {
-  padding: 1.333em 10% 10%;
+  padding: 1.333rem 10% 10%;
+}
+
+.image_me {
+  width: 15rem;
+  float: right;
 }
 
 /* --- Variabels --- */
-html {
+#app html {
   font-size: 100%;
   line-height: 1.333;
 }
-
-body {
-  font-family: "font-family: 'Open Sans', sans-serif;";
+#app body {
+  font-family: "Verdana";
   font-size: 1em;
   font-weight: 1em;
   line-height: 1.333;
 }
-
-h1 {
+#app h1 {
   font-size: 5.61rem;
   font-weight: 600;
-  font-family: "font-family: 'Sigmar One', cursive;";
+  font-family: "Impact";
+  padding-bottom: 2.666rem;
   color: #515151;
+  /* lobster-regular - latin */
 }
-
-h2 {
+#app h2 {
   font-size: 4.209rem;
   font-weight: 500;
-  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-family: "Impact";
+  padding-bottom: 2.666rem;
   color: #515151;
 }
-
-h3 {
+#app h3 {
   font-size: 3.157rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
   color: #515151;
 }
-
-h4 {
+#app h4 {
   font-size: 2.369rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
   color: #515151;
 }
-
-h5 {
+#app h5 {
   font-size: 1.777rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
   color: #515151;
 }
-
-h6 {
+#app h6 {
   font-size: 1.333rem;
   font-weight: 400;
-  font-family: "font-family: 'Open Sans', sans-serif;";
+  font-family: "Palatino";
+  padding-bottom: 1.333rem;
   color: #515151;
 }
-
-p {
+#app p {
   font-size: 1rem;
   font-weight: 300;
-  font-family: "font-family: 'Open Sans', sans-serif;";
-  padding-bottom: 1.333em;
+  font-family: "Verdana";
+  padding-bottom: 1.333rem;
   color: #515151;
 }
-
-ol li {
+#app ol {
+  padding-bottom: 1.333rem;
+}
+#app ol li {
   font-size: 1rem;
   font-weight: 300;
   color: #515151;
-  padding-bottom: 0.6665em;
+  padding-bottom: 0.6665rem;
 }
-
-.site_header-title {
+#app .site_header-title {
   text-align: center;
-  font-font: "font-family: 'Sigmar One', cursive;";
+  font-family: "Impact";
+  font-weight: 600;
+  font-size: 5.61rem;
   color: #fcfcfc;
 }
 
 /* --- Variabels --- */
 .navbar {
   width: 100%;
-  padding: 1.333em 10% 1.333em 60%;
+  padding: 0 10% 1.333rem 60%;
   margin: 0;
   display: flex;
   flex-flow: nowrap row;
   justify-content: space-between;
-  gap: 1.333em;
+  gap: 1.333rem;
   color: #515151;
 }
 
 .multinavigation {
   width: 100%;
-  padding: 1.333em 10%;
+  padding: 0 10% 1.333rem;
   margin: 0;
   display: flex;
   flex-flow: nowrap row;
   justify-content: space-between;
-  gap: 1.333em;
+  gap: 1.333rem;
 }
 
 .site_header {
@@ -118,7 +125,7 @@ ol li {
 }
 .site_header-title {
   position: absolute;
-  top: 5rem;
+  top: 7rem;
   z-index: 200;
   width: 100%;
   margin: 0 auto;
@@ -126,7 +133,7 @@ ol li {
 }
 .site_header-image {
   width: 100%;
-  height: 15rem;
+  height: auto;
   z-index: 100;
   display: block;
 }
@@ -135,7 +142,7 @@ ol li {
 /* --- Navbar --- */
 .navbar_button {
   width: auto;
-  padding: 1.333em;
+  padding: 1.333rem;
   text-transform: uppercase;
   text-decoration: none;
   color: #2c3e50;

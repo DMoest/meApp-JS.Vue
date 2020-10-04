@@ -17,7 +17,8 @@ const routes = [
   {
     path: "/testarea/",
     name: "Testarea",
-    component: () => import(/* webpackChunkName: "testarea" */ "@/views/testarea")
+    component: () =>
+      import(/* webpackChunkName: "testarea" */ "@/views/testarea")
   }
 ];
 

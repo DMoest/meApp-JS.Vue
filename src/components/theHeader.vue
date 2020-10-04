@@ -33,4 +33,6 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Nunito:wght@300&family=Sansita+Swashed:wght@600&display=swap");
+</style>

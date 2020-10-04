@@ -12,7 +12,6 @@
         </span>
       </div>
       <div>
-
         <div class="site_content">
           <div v-html="require(`@/assets/markdown/${selectedReport}.md`)"></div>
         </div>
@@ -22,7 +21,6 @@
 </template>
 
 <script>
-
 export default {
   name: "myReports",
   props: {
